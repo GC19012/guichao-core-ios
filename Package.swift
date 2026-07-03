@@ -11,7 +11,7 @@ let package = Package(
         .binaryTarget(
             name: "GuiChaoCore",
             url: "https://github.com/GC19012/guichao-core-ios/releases/download/3.1.8/GuiChaoCore.xcframework.zip",
-            checksum: "<REPLACE_WITH_OUTPUT_OF_compute-checksum>"
+            checksum: "b6b63008ac571534835c3eb66dc83ac11ddcbbde2f275a7609036f7c488d19d4"
         ),
     ]
 )
