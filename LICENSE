@@ -1,0 +1,15 @@
+Copyright (c) 2026 GC19012. All rights reserved.
+
+GuiChaoCore is proprietary, closed-source software. The compiled
+binary distributed via this repository's Releases is licensed solely
+for use by GUICHAO's own applications.
+
+No permission is granted to copy, modify, merge, publish, distribute,
+sublicense, reverse-engineer, or otherwise use this software or its
+binary artifacts, in whole or in part, except as explicitly authorized
+in writing by the copyright holder.
+
+The packaging scaffolding in this repository (Package.swift,
+release.sh, and this LICENSE file) merely describes how the binary is
+distributed via Swift Package Manager and carries no independent
+grant of rights to the underlying GuiChaoCore binary.

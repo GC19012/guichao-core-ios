@@ -1,5 +1,7 @@
 # guichao-core-ios
 
+![License](https://img.shields.io/badge/license-Proprietary-red)
+
 GuiChaoCore（Go 编译产物）打包为 Swift 二进制 `.xcframework`，通过 Swift
 Package Manager 分发给 GUICHAO iOS App 使用。
 
@@ -63,3 +65,8 @@ password <personal-access-token>
 
 如果之后决定把仓库/Release 设为公开，直接改可见性即可，不需要动
 `Package.swift` 结构，只是可以省掉这一步。
+
+## License
+
+私有闭源，详见 [LICENSE](LICENSE)。分发的二进制仅供 GUICHAO 自身 App
+使用，不授予任何复制、修改、逆向工程或再分发权利。
