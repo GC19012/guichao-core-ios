@@ -52,10 +52,12 @@ git push && git push origin <version>
 然后在 GitHub 仓库 Releases 页面基于该 tag 创建 Release，把生成的 zip
 作为资产上传。
 
-## 私有仓库访问配置（消费方机器/CI 都需要）
+## 私有仓库访问配置（如果之后把仓库切成私有）
 
-仓库私有时，SwiftPM 下载 Release 二进制资产需要认证，在
-`~/.netrc` 里加一条（token 需要 `repo` 权限）：
+当前仓库是**公开**的，SwiftPM 直接下载 Release 资产不需要任何认证。
+
+如果之后决定把仓库/Release 设为私有，SwiftPM 下载二进制资产就需要认证，
+在 `~/.netrc` 里加一条（token 需要对该仓库的 Contents 读权限）：
 
 ```
 machine github.com
@@ -63,8 +65,7 @@ login <your-github-username>
 password <personal-access-token>
 ```
 
-如果之后决定把仓库/Release 设为公开，直接改可见性即可，不需要动
-`Package.swift` 结构，只是可以省掉这一步。
+不需要改 `Package.swift` 结构，只是多这一步配置。
 
 ## License
 
